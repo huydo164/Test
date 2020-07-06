@@ -1,0 +1,113 @@
+html, body{
+    background: #222;
+    min-height: auto;
+    margin-bottom: 0px!important;
+}
+.page-login{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.wrapp-page-login{
+    width: 410px;
+    margin: 0 auto;
+}
+.box-login {
+    background: #394557;
+    margin: 0px auto;
+    padding: 5px;
+    border-radius: 2px;
+}
+.form-login{
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+    background: #f7f7f7;
+}
+.box-login .formSendLogin {
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 90%;
+}
+.box-login .form-control{
+    padding: 5px;
+    border-radius: 2px;
+    box-shadow: none;
+    font-style: italic;
+}
+.box-login  .form-group .item-line{
+    position: relative;
+}
+.login-icon{
+    bottom: 1px;
+    color: #909090;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0 3px;
+    z-index: 2;
+}
+.item-line .login-icon{
+    position: absolute;
+    right: 3px;
+}
+.btnLogin {
+    border-radius: 2px;
+    color: #fff;
+    font-style: italic;
+    padding: 3px 12px;
+    position: relative;
+}
+.btnLogin .icon-key{
+    color: #fff;
+}
+a.forgotpass {
+    font-style: italic;
+    font-size: 15px;
+}
+.line-title-form {
+    border-bottom: 1px solid #d5e3ef;
+    color: #478fca;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding-bottom: 2px;
+    font-style: italic;
+}
+.line-title-form .icon-coffee{
+    color: #69aa46;
+}
+.box-title-login{
+    margin: 0px auto;
+    padding: 20px 5px 5px 5px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+}
+.box-title-login .icon-leaf{
+    color: #69aa46;
+    font-size: 32px;
+}
+.cms {
+    color: #dd5a43;
+    font-size: 32px;
+}
+.white{
+   color: #fff;
+    font-size: 32px;
+}
+.copyright{
+    color: #478fca;
+    font-size: 15px;
+    font-style: italic;
+    clear: both;
+}
+.alert-danger {
+    font-style: italic;
+}
+@media only screen and (max-width:480px){
+    .wrapp-page-login{
+        width: 100%;
+    }
+}

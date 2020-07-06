@@ -1,0 +1,166 @@
+@font-face {
+    font-family: samsung-one-400;
+    src: url(../fonts/samsung-one-400.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/samsung-one-400.otf) format('opentype'),
+    url(../fonts/samsung-one-400.woff) format('woff'),
+    url(../fonts/samsung-one-400.ttf) format('truetype'),
+    url(../fonts/samsung-one-400.svg#samsung-one-400.eot) format('svg');
+    font-weight: 400;font-style: normal
+}
+@font-face{
+    font-family:samsung-one-700;
+    src:url(../fonts/samsung-one-700.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/samsung-one-700.otf) format("opentype"),
+    url(../fonts/samsung-one-700.woff) format("woff"),
+    url(../fonts/samsung-one-700.ttf) format("truetype"),
+    url(../fonts/samsung-one-700.svg#samsung-one-700) format("svg");
+    font-weight:400; font-style:normal
+}
+@font-face{
+    font-family:Roboto-Regular;
+    src:url(../fonts/Roboto-Regular.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/Roboto-Regular.otf) format("opentype"),
+    url(../fonts/Roboto-Regular.woff) format("woff"),
+    url(../fonts/Roboto-Regular.ttf) format("truetype"),
+    url(../fonts/Roboto-Regular.svg#samsung-one-700) format("svg");
+    font-weight:400; font-style:normal
+}
+body {
+    font-family: samsung-one-400;
+    font-size: 15px;
+    background:#fff;
+    color: #222;
+    line-height: 1.42857143;
+    width: 100%;
+    overflow: hidden;
+}
+#wrapper {
+     padding-left: 0;
+     padding-right: 0
+ }
+.container {
+    width: 1075px;
+}
+.line .col-lg-9 .col-lg-12, .line .col-lg-3{
+    padding: 0 ;
+}
+.item-post-cols{
+    margin-bottom: 30px;
+}
+.line{
+    color: #555;
+}
+.fa-calendar{
+    font-size: 12px;
+    padding-right: 4px;
+}
+.item-date0{
+    font-style: italic;
+    font-size: 13px;
+}
+.titlex{
+    margin: 0;
+    font-size: 15px;
+    color: #222;
+    font-weight: 700;
+}
+.des{
+    color: #444 ;
+}
+.list{
+    overflow: auto;
+    margin-bottom: 20px;
+}
+.thumb{
+    width: 100%;
+}
+.title-card{
+    color: #000000;
+    font-weight: bold;
+}
+.titlex, .thumbI{
+    transition: .3s;
+}
+.item-post-cols:hover .thumbI{
+    opacity: 0.7;
+}
+.item-post-cols:hover .titlex{
+    color: #f25922;
+}
+.item-post-cols:hover .show-more a{
+    border-bottom: 1px solid #f25922;
+}
+
+.show-more{
+    margin-top: 10px;
+}
+.show-more a{
+    color: #f25922;
+    font-style: italic;
+}
+.list:hover .title-card{
+    color: #f25922;
+}
+.title{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.right-img{
+    float: left;
+    margin-right: 12px;
+}
+.right-title .title-card{
+    font-size: 14px;
+}
+.title-home-right{
+    height: 28px;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: bold;
+    border-bottom: 1px solid #ececec;
+    margin-bottom: 18px;
+}
+.title-home-right .gach{
+    margin-bottom: 0;
+    display: inline-block;
+}
+.title-home-right .gach::after{
+    content: '';
+    width: 100%;
+    border-bottom: 2px solid #f25922;
+    display: inline-block;
+    position: relative;
+    bottom: 19px;
+}
+.title-view{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.demo-content{
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+.title-same{
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 11px;
+    text-transform: uppercase;
+    color: #f25922;
+}
+.show-box-paging{
+    text-align: center;
+}
+.item-post-news{
+    background: url("../img/dotted.png") no-repeat 0px;
+    margin-bottom: 10px;
+}
+.item-post-news a{
+    color: #000;
+    font-weight: bold;
+}
+.item-post-news:hover a{
+    color: #f25922;
+}

@@ -1,0 +1,37 @@
+
+@media (min-width: 1200px){
+    
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+   
+}
+@media (min-width: 768px) and (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+	.modal-dialog.modal-dialog-comment{
+		width: 95.5%;
+	}
+	.modal-dialog.modal-dialog-comment .list-comment {
+		border-radius: 0px;
+		width: 100%;
+	}
+	.panel.panel-info .panel-footer * {
+		margin-bottom: 3px;
+	}
+	.panel.panel-info .panel-footer{
+		text-align: center;
+	}
+	.showListPage {
+		text-align: left;
+	}
+	.list-item-page {
+		float: none;
+		max-width: 100%;
+		width: 100%;
+	}
+	.show-bottom-info .total-rows {
+		float: none;
+		width: 100%;
+	}
+}
